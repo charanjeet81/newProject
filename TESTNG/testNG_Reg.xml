@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression">
+	<test name="QA01">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="Regression.Test_01" />
+			<class name="Regression.Test_02" />
+			<class name="Regression.Test_03" />
+		</classes>
+	</test>
+
+	<test name="QA02">
+		<parameter name="browser" value="FF" />
+		<classes>
+			<class name="Regression.Test_01" />
+			<class name="Regression.Test_02" />
+			<class name="Regression.Test_03" />
+		</classes>
+	</test>
+	
+	<test name="QA03">
+		<parameter name="browser" value="IE" />
+		<classes>
+			<class name="Regression.Test_01" />
+			<class name="Regression.Test_02" />
+			<class name="Regression.Test_03" />
+		</classes>
+	</test>
+
+</suite>
